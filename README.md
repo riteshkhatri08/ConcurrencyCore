@@ -35,3 +35,5 @@ While executing same lengthy task by multiple threads we can get into problems a
 In the lengthy depdendant when a data is only read and never changed, it is okay to do it as is.
 When same piece of data is changed by multiple threads it can cause weird results and must be done in a proper way.
 
+Possible ways of preventing bad data reads during dependant tasks -
+![alt text](./parallelism.png)
