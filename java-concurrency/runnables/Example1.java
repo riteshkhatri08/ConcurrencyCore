@@ -1,10 +1,14 @@
 package runnables;
 
 class Job implements Runnable {
+
+  // What happens when x is shared between 2 threads
+  // Very unsafe to run it this way
+  private int x = 0;
   @Override
   public void run() {
     System.out.println("Job starting");
-    for (int x = 0; x < 1_00; x++) {
+    for (; x < 1_00; x++) {
       System.out.println(Thread.currentThread().getName() + " x is " + x);
     }
     System.out.println("Job ending");
