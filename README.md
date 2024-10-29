@@ -10,3 +10,12 @@ While context swtiching
 - Whats happening right now with the task
 
 ![Alt text](./context_switching.png?raw=true "Context Switching")
+
+
+In computers, only registes (ALU) can perform calculations meanwhile memory ad cache only stores/reads values.
+
+
+Volatile in Java
+- 
+When we declare a variable as volatile, its value is always loaded from memory whenever we want to use it
+![alt text](./volatile.png?raw=true)
