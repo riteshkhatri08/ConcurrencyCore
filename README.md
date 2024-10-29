@@ -1,8 +1,7 @@
-## Learning Concurrency Core Principles
+# Learning Concurrency Core Principles
 Course and Images by Simon Roberts on Oreilly ! - [LINK](https://learning.oreilly.com/live-events/concurrent-programming-core-concepts/0642572008523/)
 
-Analogy used for below examples
-- 
+## Analogy used for below Concepts
 Imagine a cpu as a human working in a corporate working on multiple tasks. 
 
 
@@ -30,3 +29,6 @@ When we declare a variable as volatile, its value is always loaded from memory w
 
 Parellelism
 -
+When we have parallel hardware (multiple cpu)  each cpu can take up on 1 task at a point. These type of systems would be "used" most effeciently when the no of "independent" tasks to be executed are more than the no of cpus.
+
+
