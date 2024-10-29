@@ -1,5 +1,5 @@
 ## Learning Concurrency Core Principles
-Course and Images by Simon Roberts on Oreilly !
+Course and Images by Simon Roberts on Oreilly ! - [LINK](https://learning.oreilly.com/live-events/concurrent-programming-core-concepts/0642572008523/)
 
 
 # Context Swtiching
