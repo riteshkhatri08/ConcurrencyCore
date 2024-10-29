@@ -8,4 +8,5 @@ We need context swtiching when switching between tasks.
 While context swtiching
 - Where we left off?
 - Whats happening right now with the task
-![alt text](context_switching.png)
+
+![Alt text](./context_switching.png?raw=true "Context Switching")
